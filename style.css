@@ -134,3 +134,7 @@ h2{margin:0 0 8px; font-size:22px}
   object-fit: contain;
   border-radius: 6px;
 }
+.logo-img {
+  height: 34px;
+  width: auto;
+}
