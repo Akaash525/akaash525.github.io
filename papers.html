@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Research Papers • QuantEdge</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="index.html">
+      <span class="logo">QE</span>
+      <span class="brand-text">QuantEdge</span>
+    </a>
+
+    <nav class="links">
+      <a href="about.html">About Me</a>
+      <a href="quantedge.html">About QuantEdge</a>
+      <a href="papers.html">Research Papers</a>
+      <a href="methods.html">Methods</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero" style="padding-top:18px;">
+    <p class="badge">Research</p>
+    <h1>Research Papers</h1>
+    <p class="subtitle">QuantEdge Publications</p>
+    <p class="desc">
+      Each paper is a full write-up with the question, dataset, method, visuals, and final takeaway.
+      Click a paper to open its dedicated page.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>All Papers</h2>
+    <p class="muted">Add papers here as you publish them.</p>
+
+    <div class="papers">
+      <article class="paper">
+        <h3>Paper #1 (Coming Soon)</h3>
+        <p class="muted">Topic • Dataset • Key result</p>
+        <div class="paper-actions">
+          <a class="button" href="papers/paper-1.html">Open Paper</a>
+          <a class="button ghost" href="#">Dataset</a>
+        </div>
+      </article>
+
+      <article class="paper">
+        <h3>Paper #2 (Coming Soon)</h3>
+        <p class="muted">Topic • Dataset • Key result</p>
+        <div class="paper-actions">
+          <span class="pill">Open Paper (soon)</span>
+          <span class="pill">Dataset (soon)</span>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> QuantEdge</p>
+  </footer>
+</main>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
