@@ -117,3 +117,13 @@ h2{margin:0 0 8px; font-size:22px}
 
 /* Footer */
 .footer{margin-top:22px; opacity:.6; font-size:13px; text-align:center}
+
+.profile-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 16px auto;
+  border: 2px solid rgba(255,255,255,0.15);
+}
