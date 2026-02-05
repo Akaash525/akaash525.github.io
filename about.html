@@ -31,27 +31,32 @@
     <p class="badge">About</p>
     <h1>About Me</h1>
 
-    <!-- Profile Photo -->
+    <!-- Profile Photo (fixed: correct path + fallback if it fails) -->
     <img
-      src="./profile.jpg"
+      src="profile.jpg"
       alt="Photo of Akaash Deepak"
       class="profile-photo"
+      loading="lazy"
+      onerror="this.style.display='none'; document.getElementById('photo-fallback').style.display='block';"
     />
+    <p id="photo-fallback" class="muted" style="display:none; text-align:center; margin:10px 0 0;">
+      Photo not loading — make sure the file is named <strong>profile.jpg</strong> and is in the same folder as <strong>about.html</strong>.
+    </p>
 
     <p class="subtitle">
       Founded by <strong>Akaash Deepak</strong>
     </p>
 
-    <p>
+    <p class="desc">
       I’m a student data analyst and the founder of <strong>QuantEdge</strong>, a personal research initiative focused on turning real-world data into clear, meaningful insights.
     </p>
 
-    <p>
-      My work centers on sports analytics, trend analysis, and data visualization. I enjoy starting with a simple question, exploring datasets using Python and spreadsheets, and communicating results through clean charts and written analysis.
+    <p class="desc">
+      My work centers on sports analytics, trend analysis, and data visualization. I start with a simple question, explore datasets using Python and spreadsheets, and communicate results through clean charts and written analysis.
     </p>
 
-    <p>
-      Through QuantEdge, I aim to build a portfolio of independent research projects that demonstrate structured thinking, technical skill, and curiosity about real-world problems.
+    <p class="desc">
+      Through QuantEdge, I’m building a portfolio of independent research projects that show structured thinking, technical skill, and curiosity about real-world problems.
     </p>
   </section>
 
