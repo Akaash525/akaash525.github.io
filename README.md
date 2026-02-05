@@ -1,6 +1,6 @@
 # QuantEdge
 
-### Student-led data analytics and quantitative research
+### Data analytics and quantitative insights
 
 QuantEdge is an independent data analytics initiative focused on uncovering insights through quantitative analysis of sports and real-world datasets.
 
