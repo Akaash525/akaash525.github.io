@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me • QuantEdge</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="index.html">
+      <span class="logo">QE</span>
+      <span class="brand-text">QuantEdge</span>
+    </a>
+
+    <nav class="links">
+      <a href="about.html">About Me</a>
+      <a href="quantedge.html">About QuantEdge</a>
+      <a href="papers.html">Research Papers</a>
+      <a href="methods.html">Methods</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero" style="padding-top:18px;">
+    <p class="badge">About</p>
+    <h1>About Me</h1>
+    <p class="subtitle">Founded by <strong>Akaash Deepak</strong></p>
+    <p class="desc">
+      I’m a high school student passionate about data analytics and quantitative reasoning. I build projects that start with a question, use real data, and end with a clear takeaway.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>Focus Areas</h2>
+    <ul class="bullets">
+      <li>Sports analytics and performance trends</li>
+      <li>Clean visual storytelling</li>
+      <li>Research writing and insight-driven conclusions</li>
+    </ul>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> QuantEdge</p>
+  </footer>
+</main>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
