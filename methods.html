@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Methods • QuantEdge</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="index.html">
+      <span class="logo">QE</span>
+      <span class="brand-text">QuantEdge</span>
+    </a>
+
+    <nav class="links">
+      <a href="about.html">About Me</a>
+      <a href="quantedge.html">About QuantEdge</a>
+      <a href="papers.html">Research Papers</a>
+      <a href="methods.html">Methods</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero" style="padding-top:18px;">
+    <p class="badge">Methods</p>
+    <h1>Methods & Tools</h1>
+    <p class="desc">
+      QuantEdge projects follow a consistent, repeatable approach so the work is clear and trustworthy.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>Workflow</h2>
+    <div class="grid">
+      <div class="mini-card">
+        <h3>Clean</h3>
+        <p>Remove duplicates, handle missing values, verify data types.</p>
+      </div>
+      <div class="mini-card">
+        <h3>Explore</h3>
+        <p>Summary stats, distributions, comparisons, trend checks.</p>
+      </div>
+      <div class="mini-card">
+        <h3>Analyze</h3>
+        <p>Correlations, rankings, group-by insights, key metrics.</p>
+      </div>
+      <div class="mini-card">
+        <h3>Visualize</h3>
+        <p>Charts that make the result easy to understand.</p>
+      </div>
+      <div class="mini-card">
+        <h3>Write</h3>
+        <p>Explain the “so what” and what the data actually means.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Tools</h2>
+    <ul class="bullets">
+      <li>Python (pandas, matplotlib)</li>
+      <li>Spreadsheets for quick validation</li>
+      <li>GitHub Pages for publishing</li>
+      <li>Optional later: Power BI / Tableau</li>
+    </ul>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> QuantEdge</p>
+  </footer>
+</main>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
