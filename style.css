@@ -128,3 +128,9 @@ h2{margin:0 0 8px; font-size:22px}
   margin:16px auto;
   border:2px solid rgba(255,255,255,0.15);
 }
+.logo-img {
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
+  border-radius: 6px;
+}
